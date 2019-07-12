@@ -14,7 +14,7 @@ This course is intended for graduate students and researchers with interests in 
 
 # Tentative Program
 *Monday, Sept 30, 2019* 
--OpenTopography introduction and production implementations 
+- OpenTopography introduction and production implementations 
   - Point cloud selection and review of basic processiing workflows 
   - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs 
   - DEM processing for flow routing using TauDEM HPC 
