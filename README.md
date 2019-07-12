@@ -13,26 +13,25 @@ This course is intended for graduate students and researchers with interests in 
 
 
 # Tentative Program
-*Monday, Sept 30, 2019*
-OpenTopography introduction and production implementations
-- Point cloud selection and review of basic processiing workflows
-- DEM processing using neighborhood and triangulation methods to produce DSM and DTMs
-- DEM processing for flow routing using TauDEM HPC
+*Monday, Sept 30, 2019* 
+-OpenTopography introduction and production implementations 
+  - Point cloud selection and review of basic processiing workflows 
+  - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs 
+  - DEM processing for flow routing using TauDEM HPC 
 	
-Desktop based (Python driven) point cloud classification and filtering, followed by interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces). 
+- Desktop based (Python driven) point cloud classification and filtering, followed by interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces). 
+- Airborne lidar to photogrammetric SFM warping example 
 
-Airborne lidar to photogrammetric SFM warping example 
+*Tuesday, October 1, 2019* 
+- Flow routing on point clouds using TINs
+- Channel Head identification using point clouds with various densities
 
-*Tuesday, October 1, 2019*
-Flow routing on point clouds using TINs
-Channel Head identification using point clouds with various densities
+*Wednesday, October 2, 2019* 
+- Explain and explore full-waveform data with specific applications for geomorphology (micro-surface roughness, better characterization of ground surface, material-surface characteristics, water-column characteristics, and biomass estimation)
 
-*Wednesday, October 2, 2019*
-Explain and explore full-waveform data with specific applications for geomorphology (micro-surface roughness, better characterization of ground surface, material-surface characteristics, water-column characteristics, and biomass estimation)
-
-*Thursday, October 3, 2019*
-Matlab Topotoolbox, basic data types and structures; steepness indices, 
+*Thursday, October 3, 2019* 
+- Matlab Topotoolbox, basic data types and structures; steepness indices, 
 
 *Friday, October 4, 2019*
-LSD, river-profile clustering, ridge-top curvature, making appealing maps with GMT
+- LSD, river-profile clustering, ridge-top curvature, making appealing maps with GMT
 
