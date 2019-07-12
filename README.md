@@ -9,12 +9,7 @@ The workshop will progress from point cloud analysis to appropriate filtering an
 This course is intended for graduate students and researchers with interests in surface processes and with experience in programming (Python and Matlab).
 
 ## Organization Committee and Instructors
-Bodo Bookhagen
-Wolfgang Schwanghart
-Fiona Clubb
-Aljoscha Rheinwalt
-Ramon Arrowsmith
-Chris Crosby
+Bodo Bookhagen, Wolfgang Schwanghart, Fiona Clubb, Aljoscha Rheinwalt, Ramon Arrowsmith, Chris Crosby
 
 
 # Tentative Program
