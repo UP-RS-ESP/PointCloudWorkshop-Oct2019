@@ -34,7 +34,8 @@ We expect to have an application page up soon and the deadline to apply will be 
   - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces)
   - Airborne lidar to photogrammetric SFM warping example
 
-  	*Evening student presentations*
+*Evening student presentations*
+
 
 *Tuesday, October 1, 2019*
 - Desktop based (Python driven) computational workflows (II)
@@ -42,13 +43,15 @@ We expect to have an application page up soon and the deadline to apply will be 
   - Channel Head identification using point clouds with various densities
   - Other topics depending on time and participant's interests
 
-	*Evening student presentations*
+*Evening student presentations*
+
 
 *Wednesday, October 2, 2019*
 - Topographic metrics and processing with [Matlab TopoToolbox](https://topotoolbox.wordpress.com/)
   - Introduction
   - basic operations, data types, and structures
   - Steepness indices
+
 
 *Thursday, October 3, 2019*
 - Full waveform lidar explanation and exploration with specific applications for geomorphology
@@ -58,6 +61,7 @@ We expect to have an application page up soon and the deadline to apply will be 
    - water-column characteristics
    - biomass estimation
 
+
 *Friday, October 4, 2019*
 - Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/)
   - Introduction
@@ -66,4 +70,4 @@ We expect to have an application page up soon and the deadline to apply will be 
   - Making appealing maps with GMT
 
 ***Evening student*** **presentations**
-We will have short presentations by participants on Monday and Tuesday early evenings. You are STRONGLY encouraged to make one of these short (<5 minutes/<5 slides) presentations. We will have a computer and projector there and will collect the presentations in advance for quick transitions. Given the big group, we will be strict on timing, but we do look forward to hearing about your work, your ideas, or even questions. This will be very informal! 
+We will have short presentations by participants on Monday and Tuesday early evenings. You are STRONGLY encouraged to make one of these short (<5 minutes/<5 slides) presentations. We will have a computer and projector there and will collect the presentations in advance for quick transitions. Given the big group, we will be strict on timing, but we do look forward to hearing about your work, your ideas, or even questions. This will be very informal!
