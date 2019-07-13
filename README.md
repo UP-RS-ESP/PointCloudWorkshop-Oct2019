@@ -43,18 +43,18 @@ We expect to have an application page up soon and the deadline to apply will be 
 	Evening student presentations*
 
 *Wednesday, October 2, 2019* 
+- Topographic metrics and processing with [Matlab TopoToolbox](https://topotoolbox.wordpress.com/)
+  - Introduction
+  - basic operations, data types, and structures
+  - Steepness indices
+
+*Thursday, October 3, 2019* 
 - Full waveform lidar explanation and exploration with specific applications for geomorphology 
    - micro-surface roughness
    - better characterization of ground (and other) surfaces
    - material-surface characteristics
    - water-column characteristics
    - biomass estimation
-
-*Thursday, October 3, 2019* 
-- Topographic metrics and processing with [Matlab TopoToolbox](https://topotoolbox.wordpress.com/)
-  - Introduction
-  - basic operations, data types, and structures
-  - Steepness indices
 
 *Friday, October 4, 2019*
 - Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/)
