@@ -23,7 +23,7 @@ This course is intended for graduate students and researchers with interests in 
 We expect to have an application page up soon and the deadline to apply will be August 16, 2019. There is no fee for the workshop.
 
 # Tentative Program
-*Monday, Sept 30, 2019*
+**Monday, Sept 30, 2019**
 - OpenTopography introduction and production implementations
   - Point cloud selection and review of basic processiing workflows
   - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs
@@ -37,7 +37,7 @@ We expect to have an application page up soon and the deadline to apply will be 
 *Evening student presentations*
 
 
-*Tuesday, October 1, 2019*
+**Tuesday, October 1, 2019**
 - Desktop based (Python driven) computational workflows (II)
   - Flow routing on point clouds using TINs
   - Channel Head identification using point clouds with various densities
@@ -46,14 +46,14 @@ We expect to have an application page up soon and the deadline to apply will be 
 *Evening student presentations*
 
 
-*Wednesday, October 2, 2019*
+**Wednesday, October 2, 2019**
 - Topographic metrics and processing with [Matlab TopoToolbox](https://topotoolbox.wordpress.com/)
   - Introduction
   - basic operations, data types, and structures
   - Steepness indices
 
 
-*Thursday, October 3, 2019*
+**Thursday, October 3, 2019**
 - Full waveform lidar explanation and exploration with specific applications for geomorphology
    - micro-surface roughness
    - better characterization of ground (and other) surfaces
@@ -62,7 +62,7 @@ We expect to have an application page up soon and the deadline to apply will be 
    - biomass estimation
 
 
-*Friday, October 4, 2019*
+**Friday, October 4, 2019**
 - Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/)
   - Introduction
   - River-profile clustering
