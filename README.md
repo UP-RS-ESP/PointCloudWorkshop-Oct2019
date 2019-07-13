@@ -1,5 +1,11 @@
 # From point clouds and full-waveform data to DEM analysis (Sep-30 to Oct-4 2019)
-Point-cloud workshop at the University of Potsdam with support from the graduate school [StRATEGy](http://www.irtg-strategy.de/index/), the [University of Potsdam](https://up-rs-esp.github.io/), [US-National Science Foundation EarthCube RCN Connecting the Earth Science and Cyberinfrastructure communities to advance the analysis of high resolution topography data](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1642611&HistoricalAwards=false) and [OpenTopography](https://opentopography.org/)
+Point-cloud workshop at the University of Potsdam
+
+Support from 
+- [StRATEGy](http://www.irtg-strategy.de/index/) graduate school
+- [University of Potsdam](https://up-rs-esp.github.io/)
+- the [US-National Science Foundation EarthCube RCN "Connecting the Earth Science and Cyberinfrastructure communities to advance the analysis of high resolution topography data"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1642611&HistoricalAwards=false) 
+- [OpenTopography](https://opentopography.org/)
 
 ## Description
 In the past few years, the density and quality of point cloud data from lidar and photogrammetry has massively increased. This has enabled important new understanding in earth surface process science, but also has challenged our analytical tools and computational workflows. The generation of high resolution Digital Elevation Models, flow routing on point clouds, and surface roughness estimation has become more accessible and provides important measures of topography at the fine scale at which the processes operate.  This workshop presents approaches to analyzing point cloud data and producing useful derived products. It also explores future applications in earth surface processes.
