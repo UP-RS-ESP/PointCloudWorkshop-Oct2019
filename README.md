@@ -31,8 +31,8 @@ We expect to have an application page up soon and the deadline to apply will be 
   - point cloud classification and filtering
   - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces)
   - Airborne lidar to photogrammetric SFM warping example 
- 
- Evening student presentations*
+  
+  	Evening student presentations*
 
 *Tuesday, October 1, 2019* 
 - Desktop based (Python driven) computational workflows (II)
@@ -40,7 +40,7 @@ We expect to have an application page up soon and the deadline to apply will be 
   - Channel Head identification using point clouds with various densities
   - Other topics depending on time and participant's interests
   
-   Evening student presentations*
+	Evening student presentations*
 
 *Wednesday, October 2, 2019* 
 - Full waveform lidar explanation and exploration with specific applications for geomorphology 
