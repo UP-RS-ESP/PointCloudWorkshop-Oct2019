@@ -17,7 +17,7 @@ This course is intended for graduate students and researchers with interests in 
 ## Organization Committee and Instructors
 [Bodo Bookhagen](https://bodobookhagen.github.io/), [Wolfgang Schwanghart](https://topotoolbox.wordpress.com/), [Fiona Clubb](https://fclubb.github.io/), [Aljoscha Rheinwalt](https://github.com/Rheinwalt), [Ramon Arrowsmith](https://www.public.asu.edu/~arrows/), [Chris Crosby](https://connect.unavco.org/display/per508132)
 
-## Participation will be by application
+## Participation will be by application (we are limited to 20 participants)
 We expect to have an application page up soon and the deadline to apply will be August 16, 2019. There is no fee for the workshop. 
 
 # Tentative Program
