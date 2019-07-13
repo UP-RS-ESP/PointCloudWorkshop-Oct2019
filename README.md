@@ -1,5 +1,5 @@
 # From point clouds and full-waveform data to DEM analysis (Sep-30 to Oct-4 2019)
-Point-cloud workshop at the University of Potsdam with support from the graduate school [StRATEGy](http://www.irtg-strategy.de/index/), the [University of Potsdam](https://up-rs-esp.github.io/), NSF and OpenTopography
+Point-cloud workshop at the University of Potsdam with support from the graduate school [StRATEGy](http://www.irtg-strategy.de/index/), the [University of Potsdam](https://up-rs-esp.github.io/), [US-National Science Foundation EarthCube RCN Connecting the Earth Science and Cyberinfrastructure communities to advance the analysis of high resolution topography data](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1642611&HistoricalAwards=false) and [OpenTopography](https://opentopography.org/)
 
 ## Description
 In the past few years, the density and quality of point cloud data from lidar and photogrammetry has massively increased. This has enabled important new understanding in earth surface process science, but also has challenged our analytical tools and computational workflows. The generation of high resolution Digital Elevation Models, flow routing on point clouds, and surface roughness estimation has become more accessible and provides important measures of topography at the fine scale at which the processes operate.  This workshop presents approaches to analyzing point cloud data and producing useful derived products. It also explores future applications in earth surface processes.
@@ -11,6 +11,8 @@ This course is intended for graduate students and researchers with interests in 
 ## Organization Committee and Instructors
 [Bodo Bookhagen](https://bodobookhagen.github.io/), [Wolfgang Schwanghart](https://topotoolbox.wordpress.com/), [Fiona Clubb](https://fclubb.github.io/), [Aljoscha Rheinwalt](https://github.com/Rheinwalt), Ramon Arrowsmith, Chris Crosby
 
+## Participation will be by application.
+We expect to have an application page up soon and the deadline to apply will be August 16, 2019. There is no fee for the workshop. 
 
 # Tentative Program
 *Monday, Sept 30, 2019* 
@@ -19,19 +21,35 @@ This course is intended for graduate students and researchers with interests in 
   - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs 
   - DEM processing for flow routing using TauDEM HPC 
 	
-- Desktop based (Python driven) point cloud classification and filtering, followed by interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces). 
-- Airborne lidar to photogrammetric SFM warping example 
+- Desktop based (Python driven) computational workflows (I)
+  - point cloud classification and filtering
+  - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces)
+  - Airborne lidar to photogrammetric SFM warping example 
 
 *Tuesday, October 1, 2019* 
-- Flow routing on point clouds using TINs
-- Channel Head identification using point clouds with various densities
+- Desktop based (Python driven) computational workflows (II)
+  - Flow routing on point clouds using TINs
+  - Channel Head identification using point clouds with various densities
+  - Other topics depending on time and participant's interests
 
 *Wednesday, October 2, 2019* 
-- Explain and explore full-waveform data with specific applications for geomorphology (micro-surface roughness, better characterization of ground surface, material-surface characteristics, water-column characteristics, and biomass estimation)
+- Full waveform lidar explanation and exploration with specific applications for geomorphology 
+   - micro-surface roughness
+   - better characterization of ground (and other) surfaces
+   - material-surface characteristics
+   - water-column characteristics
+   - biomass estimation
 
 *Thursday, October 3, 2019* 
-- Matlab Topotoolbox, basic data types and structures; steepness indices, 
+- Topographic metrics and processing with [Matlab TopoToolbox](https://topotoolbox.wordpress.com/)
+  - Introduction
+  - basic operations, data types, and structures
+  - Steepness indices
 
 *Friday, October 4, 2019*
-- LSD, river-profile clustering, ridge-top curvature, making appealing maps with GMT
+- Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/)
+  - Introduction
+  - River-profile clustering
+  - Ridge-top curvature
+  - Making appealing maps with GMT
 
