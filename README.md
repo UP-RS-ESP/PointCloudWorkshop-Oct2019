@@ -8,6 +8,7 @@ Support from
 - [University of Potsdam](https://up-rs-esp.github.io/)
 - the [US-National Science Foundation EarthCube RCN "Connecting the Earth Science and Cyberinfrastructure communities to advance the analysis of high resolution topography data"](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1642611&HistoricalAwards=false)
 - [OpenTopography](https://opentopography.org/)
+- [UP Transfer](https://www.up-transfer.de/)
 
 ## Description
 In the past few years, the density and quality of point cloud data from lidar and photogrammetry has massively increased. This has enabled important new understanding in earth surface process science, but also has challenged our analytical tools and computational workflows. The generation of high resolution Digital Elevation Models, flow routing on point clouds, and surface roughness estimation has become more accessible and provides important measures of topography at the fine scale at which the processes operate.  This workshop presents approaches to analyzing point cloud data and producing useful derived products. It also explores future applications in earth surface processes.
@@ -17,7 +18,10 @@ The workshop will progress from point cloud analysis to appropriate filtering an
 This course is intended for graduate students and researchers with interests in surface processes and with experience in programming (Python and Matlab).
 
 ## Organization Committee and Instructors
-[Bodo Bookhagen](https://bodobookhagen.github.io/), [Wolfgang Schwanghart](https://topotoolbox.wordpress.com/), [Fiona Clubb](https://fclubb.github.io/), [Aljoscha Rheinwalt](https://github.com/Rheinwalt), [Ramon Arrowsmith](https://www.public.asu.edu/~arrows/), [Chris Crosby](https://connect.unavco.org/display/per508132)
+[Bodo Bookhagen](https://bodobookhagen.github.io/), [Ramon Arrowsmith](https://www.public.asu.edu/~arrows/), [Chris Crosby](https://connect.unavco.org/display/per508132), [Taylor Smith](tasmith@uni-potsdam.de), [Fiona Clubb](https://fclubb.github.io/), [Aljoscha Rheinwalt](https://github.com/Rheinwalt),
+
+## Website
+We will use this github website to share code and manuals and will continue to update and fill in (also during the workshop).
 
 ## Participation will be by application (we are limited to 20 participants)
 We expect to have an application page up soon and the deadline to apply will be August 16, 2019. There is no fee for the workshop.
@@ -25,7 +29,7 @@ We expect to have an application page up soon and the deadline to apply will be 
 # Tentative Program
 **Monday, Sept 30, 2019**
 - OpenTopography introduction and production implementations
-  - Point cloud selection and review of basic processiing workflows
+  - Point cloud selection and review of basic processing workflows
   - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs
   - DEM processing for flow routing using TauDEM HPC
 
@@ -47,10 +51,8 @@ We expect to have an application page up soon and the deadline to apply will be 
 
 
 **Wednesday, October 2, 2019**
-- Topographic metrics and processing with [Matlab TopoToolbox](https://topotoolbox.wordpress.com/)
-  - Introduction
-  - basic operations, data types, and structures
-  - Steepness indices
+- Determining optimal DEM resolutions from point pointclouds
+- using point cloud data to measure surface roughness for geomorphic classification
 
 
 **Thursday, October 3, 2019**
