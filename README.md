@@ -29,12 +29,12 @@ A list of relevant [documents and PDFs](https://github.com/UP-RS-ESP/PointCloudW
 ## Participation will be by application (we are limited to 20 participants)
 Workshop fees are 100 Euro. This includes snacks, coffee, beverages, lunch, and one workshop dinner on Monday. Thanks to support from the NSF EarthCube A^2HRT RCN, we will provide travel support for up to five early career participants from the US.
 
-You can apply for the workshop [online](http://tiny.cc/ivg89y) and the application deadline is *August 16, 2019*. **We will inform selected participants and expect payment of the workshop fees until *August 23, 2019*. If no payment is received by then, we will offer the slot to another candidate.**
+You can apply for the workshop [online](http://tiny.cc/ivg89y) and the application deadline is *August 23, 2019*. **We will inform selected participants and expect payment of the workshop fees until *Sept 6, 2019*. If no payment is received by then, we will offer the slot to another candidate.**
 
 ## Accomodation and Hotels
 The workshop venue is the [Campus Golm](https://www.google.com/search?tbm=lcl&ei=wI85XYfFE4rRwAKr2DE&q=Karl-Liebknecht-Stra%C3%9Fe+24-25%2C+14476+Potsdam&oq=Karl-Liebknecht-Stra%C3%9Fe+24-25%2C+14476+Potsdam&gs_l=psy-ab.3..38l3.131238.133490.0.134023.2.2.0.0.0.0.87.166.2.2.0....0...1c.1.64.psy-ab..0.1.86....0.n0oBY4Efq_Q#rlfi=hd:;si:11329416506967667491;mv:!1m2!1d52.40871997731902!2d12.974945031694851!2m2!1d52.40836002268096!2d12.974354968305148!3m12!1m3!1d339.6918546312415!2d12.974649999999999!3d52.408539999999995!2m3!1f0!2f0!3f0!3m2!1i1865!2i1715!4f13.1) at the [University of Potsdam](https://www.uni-potsdam.de/en/index.html). See also the more detailed [campus plan](https://www.uni-potsdam.de/db/zeik-portal/gm/lageplan-up.php?komplex=2).
 
-There is a list of hotels and accomodation in [Potsdam](LINK) and [Berlin](LINK). Public transport in Potsdam takes ~10 to 15 minutes to the Campus Golm, commuting via bike is also possible. Public transport takes you from Berlin downtown to the campus in 30 minutes.
+There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/Potsdam_Hostels_2018.pdf) and [Berlin](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/Berlin_Hostels_2018.pdf). Public transport in Potsdam takes ~10 to 15 minutes to the Campus Golm, commuting via bike is also possible. Public transport takes you from Berlin downtown to the campus in 30 minutes.
 
 # Tentative Program
 **Monday, Sept 30, 2019**
