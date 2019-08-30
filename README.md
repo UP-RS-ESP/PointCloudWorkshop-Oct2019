@@ -43,6 +43,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
   - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs
   - DEM processing for flow routing using TauDEM HPC
 
+
 - Desktop based (Python driven) computational workflows (I)
   - point cloud classification and filtering
   - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces)
@@ -53,19 +54,28 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 
 **Tuesday, October 1, 2019**
 - Desktop based (Python driven) computational workflows (II)
-  - Flow routing on point clouds using TINs
-  - Channel Head identification using point clouds with various densities
+  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds)
+  - Determining optimal DEM resolutions from point
   - Other topics depending on time and participant's interests
 
 *Evening student presentations*
 
 
 **Wednesday, October 2, 2019**
-- Determining optimal DEM resolutions from point pointclouds
-- using point cloud data to measure surface roughness for geomorphic classification
+- Desktop based (Python driven) computational workflows (III)
+  - using point cloud data to measure surface roughness for geomorphic classification
+Flow routing on point clouds using TINs
+- Channel Head identification using point clouds with various densities
 
 
 **Thursday, October 3, 2019**
+- Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/)
+  - Introduction
+  - River-profile clustering
+  - Ridge-top curvature
+  - Making appealing maps with GMT
+
+**Friday, October 4, 2019**
 - Full waveform lidar explanation and exploration with specific applications for geomorphology
    - micro-surface roughness
    - better characterization of ground (and other) surfaces
@@ -73,13 +83,6 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
    - water-column characteristics
    - biomass estimation
 
-
-**Friday, October 4, 2019**
-- Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/)
-  - Introduction
-  - River-profile clustering
-  - Ridge-top curvature
-  - Making appealing maps with GMT
 
 ***Evening student*** **presentations**
 We will have short presentations by participants on Monday and Tuesday early evenings. You are STRONGLY encouraged to make one of these short (<5 minutes/<5 slides) presentations. We will have a computer and projector there and will collect the presentations in advance for quick transitions. Given the big group, we will be strict on timing, but we do look forward to hearing about your work, your ideas, or even questions. This will be very informal!
