@@ -66,7 +66,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 - Desktop based (Python driven) computational workflows (III) (Aljoscha + Taylor + Bodo)
   - Flow routing on point clouds using TINs [Publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Rheinwalt19_FFN_pointclouds.pdf)
   - Channel Head identification using point clouds with various densities
-  - Determining optimal DEM resolutions from point clouds [Manual PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Optimal%20DEM%20Resolution%20Manual.pdf), [Python Code](), [Publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/smith19_optimal_grid_resolution.pdf)
+  - Determining optimal DEM resolutions from point clouds [Manual PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Optimal%20DEM%20Resolution%20Manual.pdf), [Python Code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/figs_pc_workshop.py), [Publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/smith19_optimal_grid_resolution.pdf)
 
 
 **Thursday, October 3, 2019**
