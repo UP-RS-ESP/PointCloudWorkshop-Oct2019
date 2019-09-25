@@ -41,7 +41,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 - Introduction to Point Clouds (Bodo)
   - Desktop based (Python driven) computational workflows (I) (Bodo + Aljoscha)
   - CloudCompare and aligning different point cloud datasets
-  - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example
+  - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example [PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/golm-sfm-doming-error.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/remove-spherical-error.py)
 
 
 - OpenTopography introduction and production implementations (Ramon and Chris)
@@ -64,15 +64,15 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 
 **Wednesday, October 2, 2019**
 - Desktop based (Python driven) computational workflows (III) (Aljoscha + Taylor + Bodo)
-  - Flow routing on point clouds using TINs [Publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Rheinwalt19_FFN_pointclouds.pdf)
+  - Flow routing on point clouds using TINs [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Rheinwalt19_FFN_pointclouds.pdf)
   - Channel Head identification using point clouds with various densities
-  - Determining optimal DEM resolutions from point clouds [Manual PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Optimal%20DEM%20Resolution%20Manual.pdf), [Python Code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/figs_pc_workshop.py), [Publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/smith19_optimal_grid_resolution.pdf)
+  - Determining optimal DEM resolutions from point clouds [PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Optimal%20DEM%20Resolution%20Manual.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/figs_pc_workshop.py), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/smith19_optimal_grid_resolution.pdf)
 
 
 **Thursday, October 3, 2019**
 - Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/) (Fiona)
   - Introduction
-  - River-profile clustering [PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
+  - River-profile clustering [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
   - Ridge-top curvature
   - Making appealing maps with GMT
 
