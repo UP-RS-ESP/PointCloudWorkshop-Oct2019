@@ -37,46 +37,47 @@ The workshop venue is the [Campus Golm](https://www.google.com/search?tbm=lcl&ei
 There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/Potsdam_Hostels_2018.pdf) and [Berlin](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/Berlin_Hostels_2018.pdf). Public transport in Potsdam takes ~10 to 15 minutes to the Campus Golm, commuting via bike is also possible. Public transport takes you from Berlin downtown to the campus in 30 minutes.
 
 # Tentative Program
-**Monday, Sept 30, 2019**
-- OpenTopography introduction and production implementations
+**Monday, Sept 30, 2019 start 9am**
+- Introduction to Point Clouds (Bodo)
+  - Desktop based (Python driven) computational workflows (I) (Bodo + Aljoscha)
+  - CloudCompare and aligning different point cloud datasets
+  - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example
+
+
+- OpenTopography introduction and production implementations (Ramon and Chris)
   - Point cloud selection and review of basic processing workflows
   - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs
   - DEM processing for flow routing using TauDEM HPC
 
-
-- Desktop based (Python driven) computational workflows (I)
-  - point cloud classification and filtering
-  - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces)
-  - Airborne lidar to photogrammetric SFM warping example
-
-*Evening student presentations*
+4 - 5pm   *Evening student presentations*
 
 
 **Tuesday, October 1, 2019**
-- Desktop based (Python driven) computational workflows (II)
-  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds)
-  - Determining optimal DEM resolutions from point
+- Desktop based (Python driven) computational workflows (II) (Aljoscha + Bodo)
+  - Point cloud classification and filtering
+  - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces) [github: Lidar_PC_interpolation](https://github.com/BodoBookhagen/Lidar_PC_interpolation)
+  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds) [github: LidarPC-KDTree](https://github.com/UP-RS-ESP/LidarPC-KDTree)
   - Other topics depending on time and participant's interests
 
-*Evening student presentations*
+4 - 5 pm *Evening student presentations*
 
 
 **Wednesday, October 2, 2019**
-- Desktop based (Python driven) computational workflows (III)
-  - using point cloud data to measure surface roughness for geomorphic classification
-Flow routing on point clouds using TINs
-- Channel Head identification using point clouds with various densities
+- Desktop based (Python driven) computational workflows (III) (Aljoscha + Taylor + Bodo)
+  - Flow routing on point clouds using TINs [Publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Rheinwalt19_FFN_pointclouds.pdf)
+  - Channel Head identification using point clouds with various densities
+  - Determining optimal DEM resolutions from point clouds [Manual PDF]() [Python Code]() [Publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/smith19_optimal_grid_resolution.pdf)
 
 
 **Thursday, October 3, 2019**
-- Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/)
+- Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/) (Fiona)
   - Introduction
-  - River-profile clustering
+  - River-profile clustering [PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
   - Ridge-top curvature
   - Making appealing maps with GMT
 
 **Friday, October 4, 2019**
-- Full waveform lidar explanation and exploration with specific applications for geomorphology
+- Full waveform lidar explanation and exploration with specific applications for geomorphology (Bodo + Aljoscha)
    - micro-surface roughness
    - better characterization of ground (and other) surfaces
    - material-surface characteristics
