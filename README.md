@@ -37,6 +37,9 @@ The workshop venue is the [Campus Golm](https://www.google.com/search?tbm=lcl&ei
 There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/Potsdam_Hostels_2018.pdf) and [Berlin](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/Berlin_Hostels_2018.pdf). Public transport in Potsdam takes ~10 to 15 minutes to the Campus Golm, commuting via bike is also possible. Public transport takes you from Berlin downtown to the campus in 30 minutes.
 
 # Tentative Program
+*If you are using your own laptop, please make sure to install the software packages listed in the [PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/doc/PC_Required_Software_Workshop.pdf)*
+
+
 **Monday, Sept 30, 2019 start 9am**
 - Introduction to Point Clouds (Bodo)
   - Desktop based (Python driven) computational workflows (I) (Bodo + Aljoscha)
@@ -72,7 +75,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 **Thursday, October 3, 2019**
 - Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/) (Fiona)
   - Introduction
-  - River-profile clustering [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
+  - River-profile clustering [github repository and Jupyter notebook and tutorial](https://github.com/UP-RS-ESP/river-clusters), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
   - Ridge-top curvature
   - Making appealing maps with GMT
 

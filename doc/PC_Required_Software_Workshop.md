@@ -60,3 +60,4 @@ In short, the required software is:
 
 - [LSDTopoTools](https://lsdtopotools.github.io/)
   - This will be installed via docker on the day of the workshop.
+  - Install the [github repository](https://github.com/UP-RS-ESP/river-clusters) for the river-cluster analysis. This contains a Jupyter notebook with a tutorial.
