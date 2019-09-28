@@ -74,7 +74,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 
 **Thursday, October 3, 2019**
 - Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/) (Fiona)
-  - Introduction
+  - Introduction [LSDTT PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/LSDTT_workshop.pdf)
   - River-profile clustering [github repository and Jupyter notebook and tutorial](https://github.com/UP-RS-ESP/river-clusters), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
   - Ridge-top curvature
   - Making appealing maps with GMT
