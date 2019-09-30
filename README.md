@@ -44,10 +44,11 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 - Introduction to Point Clouds (Bodo)
   - Desktop based (Python driven) computational workflows (I) (Bodo + Aljoscha)
   - CloudCompare and aligning different point cloud datasets
-  - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example [Doming slides and example PDF] (https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/blob/master/PDF/20190930a_SfM_Doming_example.pdf), [Doming slides and example PPT with video] (https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/blob/master/PDF/20190930a_SfM_Doming_example.pptx), [CloudCompare PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/doc/PC_alignment_c2cdistances.pdf), [Python PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/golm-sfm-doming-error.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/remove-spherical-error.py)
+  - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example [Doming slides and example PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/blob/master/PDF/20190930a_SfM_Doming_example.pdf), [Doming slides and example PPT with video](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/blob/master/PDF/20190930a_SfM_Doming_example.pptx), [CloudCompare PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/doc/PC_alignment_c2cdistances.pdf), [Python PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/golm-sfm-doming-error.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/remove-spherical-error.py)
 
 
 - OpenTopography introduction and production implementations (Ramon and Chris)
+  - A few science motivators and lidar + SfM overview
   - Point cloud selection and review of basic processing workflows
   - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs
   - DEM processing for flow routing using TauDEM HPC
