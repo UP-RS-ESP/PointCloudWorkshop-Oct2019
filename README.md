@@ -57,6 +57,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 
 
 **Tuesday, October 1, 2019**
+- [OpenTopography continued - hydraulogic routing, change detection, Community Dataspace; Other data sources: UNAVCO TLS, NEON, OpenAltimetry](https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses%2F19Potsdam%2F19Potsdam_OTintro.pdf)
 - Desktop based (Python driven) computational workflows (II) (Aljoscha + Bodo)
   - Point cloud classification and filtering
   - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces) [github: Lidar_PC_interpolation](https://github.com/BodoBookhagen/Lidar_PC_interpolation)
