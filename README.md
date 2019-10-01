@@ -26,6 +26,8 @@ This course is intended for graduate students and researchers with interests in 
 We will use this github website to share code and manuals and will continue to update and fill in (also during the workshop).
 A list of relevant [documents and PDFs](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF) are available.
 
+[Required software Required and suggested software](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/blob/master/PDF/PC_Required_Software_Workshop.pdf)
+
 ## Participation will be by application (we are limited to 20 participants)
 Workshop fees are 100 Euro. This includes snacks, coffee, beverages, lunch, and one workshop dinner on Monday. Thanks to support from the NSF EarthCube A^2HRT RCN, we will provide travel support for up to five early career participants from the US.
 
