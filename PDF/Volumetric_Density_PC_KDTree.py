@@ -11,6 +11,7 @@ import matplotlib.cm as cm
 import laspy
 
 def write_LAS(pc_xyz, v, output_las_fn, input_las_fn, cmap=cm.terrain, rescale='none'):
+    import datetime
     from laspy.file import File
     from skimage import exposure
     import copy
@@ -73,7 +74,7 @@ def pc_density_sphere(d, k=10):
     return dens
 
 if __name__ == '__main__':     
-    fname = '/media/bodo/Windows/Golm-PCs/UAV_mavicpro2_nadir_15deg_highq_dense_PC_10cm_c2cdist.laz'
+    fname = 'ALS_Golm_May06_2018_Milan_UTM33N_WGS84_6digit_cl_clip_v12.las'
     print('Loading input file: %s... '%fname, end='', flush=True)
     print('reading', fname)
     f = laspy.file.File(fname)
