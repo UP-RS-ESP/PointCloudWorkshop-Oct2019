@@ -63,7 +63,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 - Desktop based (Python driven) computational workflows (II) (Aljoscha + Bodo)
   - Point cloud classification and filtering [Etherpad Link](https://yourpart.eu/p/r.fff525596f57aff85f0295b5cc3e16d2)
   - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces) [github: Lidar_PC_interpolation](https://github.com/BodoBookhagen/Lidar_PC_interpolation)
-  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds) [github: LidarPC-KDTree](https://github.com/UP-RS-ESP/LidarPC-KDTree)
+  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds) [github: LidarPC-KDTree](https://github.com/UP-RS-ESP/LidarPC-KDTree) [Etherpad KDTree](https://yourpart.eu/p/r.abf455105f3996ac0769c82ef95417d5)
   - Other topics depending on time and participant's interests
 
 4 - 5 pm *Evening student presentations*
