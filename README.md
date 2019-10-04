@@ -86,7 +86,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 **Friday, October 4, 2019**
 - Full waveform lidar explanation and exploration with specific applications for geomorphology (Bodo + Aljoscha)
    - micro-surface roughness
-   - better characterization of ground (and other) surfaces
+   - better characterization of ground (and other) surfaces through Gaussian fitting [Etherpad Link](https://yourpart.eu/p/r.052bd8016d26784717d6d4ec879803c1)
    - material-surface characteristics
    - water-column characteristics
    - biomass estimation
