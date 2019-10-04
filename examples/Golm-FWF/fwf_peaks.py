@@ -71,10 +71,10 @@ for j in range(len(peaks)):
     peak_width[j], peak_amp[j], peak_center[j] = \
         fit_gaussian(y, t/1000, initial_peak_y, initial_peak_x/1000, 1)
     
-fitted_gaussian_y1 = gaussian(t/1000, peak_amp[1], peak_center[1], peak_width[1])
-fitted_gaussian_y2 = gaussian(t/1000, peak_amp[2], peak_center[2], peak_width[2])
-fitted_gaussian_y3 = gaussian(t/1000, peak_amp[3], peak_center[3], peak_width[3])
-fitted_gaussian_y4 = gaussian(t/1000, peak_amp[4], peak_center[4], peak_width[4])
+fitted_gaussian_y1 = gaussian(t/1000, peak_amp[0], peak_center[0], peak_width[0])
+fitted_gaussian_y2 = gaussian(t/1000, peak_amp[1], peak_center[1], peak_width[1])
+fitted_gaussian_y3 = gaussian(t/1000, peak_amp[2], peak_center[2], peak_width[2])
+fitted_gaussian_y4 = gaussian(t/1000, peak_amp[3], peak_center[3], peak_width[3])
 pl.plot(t, fitted_gaussian_y1, 'k-', linewidth=2)
 pl.plot(t, fitted_gaussian_y2, 'k-', linewidth=2)
 pl.plot(t, fitted_gaussian_y3, 'k-', linewidth=2)
