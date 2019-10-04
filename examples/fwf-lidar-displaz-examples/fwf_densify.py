@@ -31,15 +31,15 @@ for i in range(n):
     b = vlr_wpd == wpd[i]
     step = vlr_temporal[b]
     ampl = wf[i] * vlr_gain[b]
-    
+
     # remove background noise
     ampl -= ampl[0:3].mean()
     ampl[ampl < 0] = 0
-    
+
     # wave form times [ps]
     t = np.arange(0, len(ampl) * step, step)
     s = np.arange(0, len(ampl) * step, step/4)
-    
+
     usp = UnivariateSpline(t, ampl)
     peaks, properties = find_peaks(usp(s), prominence = 5)
 
@@ -52,15 +52,15 @@ for i in range(n):
     #pulse_y = S_y - np.arange(len(ampl)) * step * V[1]
     #pulse_z = S_z - np.arange(len(ampl)) * step * V[2]
     #pts = np.transpose((pulse_x, pulse_y, pulse_z))
-    
+
     pts_x = S_x - s[peaks] * V[0]
     pts_y = S_y - s[peaks] * V[1]
     pts_z = S_z - s[peaks] * V[2]
     ptsi = np.transpose((pts_x, pts_y, pts_z))
     ampi = usp(s)[peaks]
-    
-    #ptsi = ptsi[ampi > 20]
-    #ampi = ampi[ampi > 20]
+
+    ptsi = ptsi[ampi > 50]
+    ampi = ampi[ampi > 50]
     m = len(ampi)
     pts[j:j+m,:] = ptsi[:]
     rgb[j:j+m] = ampi[:]
@@ -69,4 +69,3 @@ for i in range(n):
 pts = pts[:j]
 rgb = rgb[:j]
 exportlas('%s_densify.las' % lasfname[:-4], rgb, pts)
-

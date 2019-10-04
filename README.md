@@ -46,7 +46,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 - Introduction to Point Clouds (Bodo)
   - Desktop based (Python driven) computational workflows (I) (Bodo + Aljoscha)
   - CloudCompare and aligning different point cloud datasets
-  - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example [Doming slides and example PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930a_SfM_Doming_example.pdf), [Doming slides and example PPT with video](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930a_SfM_Doming_example.pptx), [CloudCompare and Python PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/doc/PC_alignment_c2cdistances.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/remove-spherical-error.py)
+  - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example [Doming slides and example PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930a_SfM_Doming_example.pdf), [Doming slides and example PPT with video](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930a_SfM_Doming_example.pptx), [CloudCompare and Python PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/doc/PC_alignment_c2cdistances.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/remove-spherical-error.py)
 
 
 - [OpenTopography](https://opentopography.org/) introduction and production implementations (Ramon and Chris)
@@ -63,7 +63,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 - Desktop based (Python driven) computational workflows (II) (Aljoscha + Bodo)
   - Point cloud classification and filtering [Etherpad Link](https://yourpart.eu/p/r.fff525596f57aff85f0295b5cc3e16d2)
   - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces) [github: Lidar_PC_interpolation](https://github.com/BodoBookhagen/Lidar_PC_interpolation)
-  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds) [github: LidarPC-KDTree](https://github.com/UP-RS-ESP/LidarPC-KDTree) [Etherpad KDTree](https://yourpart.eu/p/r.abf455105f3996ac0769c82ef95417d5)
+  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds) [github: LidarPC-KDTree](https://github.com/UP-RS-ESP/LidarPC-KDTree), [Etherpad KDTree](https://yourpart.eu/p/r.abf455105f3996ac0769c82ef95417d5)
   - Other topics depending on time and participant's interests
 
 4 - 5 pm *Evening student presentations*
@@ -81,15 +81,11 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
   - Introduction [LSDTT PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/LSDTT_workshop.pdf), [Etherpad link](https://yourpart.eu/p/r.b240d942ccb3bf06612c6522c31282ae)
   - River-profile clustering [github repository and Jupyter notebook and tutorial](https://github.com/UP-RS-ESP/river-clusters), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
   - Ridge-top curvature
-  - Making appealing maps with GMT
 
 **Friday, October 4, 2019**
-- Full waveform lidar explanation and exploration with specific applications for geomorphology (Bodo + Aljoscha)
-   - micro-surface roughness
+- Full waveform lidar explanation and exploration with specific applications for geomorphology [PDF of introdcition presentation](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/FWF_Lidar_Intro.pdf) (Bodo + Aljoscha)
+   - FWF examples are in [Golm-FWF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/Golm-FWF) and [fwf-lidar-displaz-examples](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/fwf-lidar-displaz-examples)
    - better characterization of ground (and other) surfaces through Gaussian fitting [Etherpad Link](https://yourpart.eu/p/r.052bd8016d26784717d6d4ec879803c1)
-   - material-surface characteristics
-   - water-column characteristics
-   - biomass estimation
 
 
 ***Evening student*** **presentations**
