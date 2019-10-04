@@ -73,7 +73,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 - Desktop based (Python driven) computational workflows (III) (Aljoscha + Taylor + Bodo)
   - Flow routing on point clouds using TINs [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Rheinwalt19_FFN_pointclouds.pdf)
   - Channel Head identification using point clouds with various densities
-  - Determining optimal DEM resolutions from point clouds [PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Optimal%20DEM%20Resolution%20Manual.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/figs_pc_workshop.py), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/smith19_optimal_grid_resolution.pdf)
+  - Determining optimal DEM resolutions from point clouds [PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Optimal%20DEM%20Resolution%20Manual.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/figs_pc_workshop.py), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/smith19_optimal_grid_resolution.pdf)
 
 
 **Thursday, October 3, 2019**
@@ -83,7 +83,7 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
   - Ridge-top curvature
 
 **Friday, October 4, 2019**
-- Full waveform lidar explanation and exploration with specific applications for geomorphology [PDF of introdcition presentation](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/FWF_Lidar_Intro.pdf) (Bodo + Aljoscha)
+- Full waveform lidar explanation and exploration with specific applications for geomorphology [PDF of introduction presentation](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/FWF_Lidar_Intro.pdf) (Bodo + Aljoscha)
    - FWF examples are in [Golm-FWF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/Golm-FWF) and [fwf-lidar-displaz-examples](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/fwf-lidar-displaz-examples)
    - better characterization of ground (and other) surfaces through Gaussian fitting [Etherpad Link](https://yourpart.eu/p/r.052bd8016d26784717d6d4ec879803c1)
 
