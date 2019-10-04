@@ -18,7 +18,7 @@ $ docker run --rm -it -v /PATH/TO/YOUR/DATA:/LSDTopoTools lsdtopotools/lsdtt_pcl
 ```
 Once you run this, you will need to run the script:
 ```
-# Start_LSDTT.sh
+$ Start_LSDTT.sh
 ```
 When you are finished with your docker session type ctrl+d.
 
