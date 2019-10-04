@@ -46,6 +46,42 @@ pl.ylabel('Amplitude')
 pl.title('Full Waveform of index %d' % i)
 pl.show()
 
+#Perform Gaussian Fitting
+from lmfit import Model
+
+def gaussian(x, amp, cen, wid):
+    """1-d gaussian: gaussian(x, amp, cen, wid)"""
+    return (amp / (np.sqrt(2*np.pi) * wid)) * np.exp(-(x-cen)**2 / (2*wid**2))
+
+def fit_gaussian(y, x_ns, pt_intensity, identified_point_ns, wid=1):
+    gmodel = Model(gaussian)
+    result = gmodel.fit(y, x=x_ns, amp=pt_intensity, cen=identified_point_ns, wid=wid)
+    peak_width = result.best_values['wid']
+    peak_amp = result.best_values['amp']
+    peak_center = result.best_values['cen']
+    return peak_width, peak_amp, peak_center
+
+y = ampl
+peak_width = np.empty( (len(peaks),1) )
+peak_amp = np.empty( (len(peaks),1) )
+peak_center = np.empty( (len(peaks),1) )
+for j in range(len(peaks)):
+    initial_peak_x = s[peaks[j]]
+    initial_peak_y = usp(s)[peaks[j]]
+    peak_width[j], peak_amp[j], peak_center[j] = \
+        fit_gaussian(y, t/1000, initial_peak_y, initial_peak_x/1000, 1)
+
+fitted_gaussian_y1 = gaussian(t/1000, peak_amp[0], peak_center[0], peak_width[0])
+fitted_gaussian_y2 = gaussian(t/1000, peak_amp[1], peak_center[1], peak_width[1])
+fitted_gaussian_y3 = gaussian(t/1000, peak_amp[2], peak_center[2], peak_width[2])
+fitted_gaussian_y4 = gaussian(t/1000, peak_amp[3], peak_center[3], peak_width[3])
+pl.plot(t, fitted_gaussian_y1, 'k-', linewidth=2)
+pl.plot(t, fitted_gaussian_y2, 'k-', linewidth=2)
+pl.plot(t, fitted_gaussian_y3, 'k-', linewidth=2)
+pl.plot(t, fitted_gaussian_y4, 'k-', linewidth=2)
+
+
+
 V = dxdydz[i,:]
 S_x = UTM_XYZ[i,0] + ref_location_offset[i] * V[0]
 S_y = UTM_XYZ[i,1] + ref_location_offset[i] * V[1]

@@ -68,7 +68,7 @@ These values refer to the following items:
 - **157 156 158 161 166 165 162 176 226 313 415 51 0 590 626 590 500 391 295 229 192 176 167 161 155 152 157 163 164 164 160 165 162 161 158 156 156 158 159 157 156 162 167 163 160 158 156 157 158 162 163 161 159 161 162 159 153** FWF intensity data
 
 
-# Fitting Gaussians to FWF data
+# Fitting Gaussian Functions to FWF data
 Using [lmfit](https://lmfit.github.io/lmfit-py/index.html), because it is easy to use and very flexible.
 
 ```
@@ -76,11 +76,26 @@ conda install -c conda-forge lmfit
 pip install progressbar
 ```
 
-Converting the examples (will take some time - fitting not paralleled yet). Start this where the data are stored.
+
+*Note: Depending on your setup, you may have to use LAS (and not LAZ) files. Use `laszip` to convert:*
+```
+laszip -i Haus29_ID04_FWF_V13.laz -olas -o Haus29_ID04_FWF_V13.las
+laszip -i Haus29_ID05_FWF_V13.laz -olas -o Haus29_ID05_FWF_V13.las
+laszip -i Haus29_ID05_FWF_V13.laz -olas -o Haus29_ID05_FWF_V13.las
+```
+Converting the examples (will take some time - fitting not paralleled yet). Run this where the data are stored (change *.LAZ to *.LAS if necessary).
+
 ```
 python fwf_gaussian_fit.py Haus29_ID04_FWF_V13_xyzinrtWV.asc Haus29_ID04_FWF_V13.laz
 python fwf_gaussian_fit.py Haus29_ID05_FWF_V13_xyzinrtWV.asc Haus29_ID05_FWF_V13.laz
 python fwf_gaussian_fit.py Haus29_ID06_FWF_V13_xyzinrtWV.asc Haus29_ID06_FWF_V13.laz
+```
+
+In a last step, you could combine output files from different flight lines via `lasmerge` or `pdal`:
+```
+lasmerge -i *_amp.las -olaz -o Haus29_ID040506_FWF_V13_amp.laz
+lasmerge -i *_width.las -olaz -o Haus29_ID040506_FWF_V13_width.laz
+lasmerge -i Haus29_ID*_FWF_V13.las -o Haus29_ID040506_FWF_V13_org.laz
 ```
 
 # [PulseWaves](https://rapidlasso.com/pulsewaves/)
