@@ -44,15 +44,15 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 
 **Monday, Sept 30, 2019 start 9am**
 - Introduction to Point Clouds (Bodo)
+  - Introduction to PC, classification, Transformation matrices, KDTress [PDF of presentation](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Lidar_PC_WorkshopOct2019_Intro.pdf)
   - Desktop based (Python driven) computational workflows (I) (Bodo + Aljoscha)
-  - CloudCompare and aligning different point cloud datasets
-  - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example [Doming slides and example PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930a_SfM_Doming_example.pdf), [Doming slides and example PPT with video](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930a_SfM_Doming_example.pptx), [CloudCompare and Python PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/doc/PC_alignment_c2cdistances.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/remove-spherical-error.py)
+    - CloudCompare and aligning different point cloud datasets
+    - Importing LAZ/LAS files into python: airborne lidar to photogrammetric SFM warping example [Doming slides and example PDF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930a_SfM_Doming_example.pdf), [Doming slides and example PPT with video](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930a_SfM_Doming_example.pptx), [CloudCompare and Python PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/doc/PC_alignment_c2cdistances.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/remove-spherical-error.py)
 
 
 - [OpenTopography](https://opentopography.org/) introduction and production implementations (Ramon and Chris)
   - [A few science motivators and lidar + SfM overview](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/20190930_motivations_and_applications.pdf)
   - [OpenTopography intro + review of basic processing workflows](https://cloud.sdsc.edu:443/v1/AUTH_opentopography/www/shortcourses%2F19Potsdam%2F19Potsdam_OTintro.pdf)
-  - DEM processing using neighborhood and triangulation methods to produce DSM and DTMs
   - DEM processing for flow routing using TauDEM HPC
 
 4 - 5pm   *Evening student presentations*
@@ -61,31 +61,32 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 **Tuesday, October 1, 2019**
 - [OpenTopography continued - hydraulogic routing, change detection, Community Dataspace; Other data sources: UNAVCO TLS, NEON, OpenAltimetry](https://cloud.sdsc.edu/v1/AUTH_opentopography/www/shortcourses%2F19Potsdam%2F19Potsdam_OTintro.pdf)
 - Desktop based (Python driven) computational workflows (II) (Aljoscha + Bodo)
-  - Point cloud classification and filtering [Etherpad Link](https://yourpart.eu/p/r.fff525596f57aff85f0295b5cc3e16d2)
+  - Point cloud classification and filtering and voxel-based approached ([Python code voxel-classification-lidar.py](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/voxel-classification-lidar.py) and [Python code voxel-classification-lidar.py](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/voxel-classification-zstd.py)) [PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/doc/Classification_and_filtering_PC.pdf), [Etherpad Link](https://yourpart.eu/p/r.fff525596f57aff85f0295b5cc3e16d2)
   - interpolation to grids using the most appropriate methods (from triangulation to IDW and fitting green's functions and splines and other surfaces) [github: Lidar_PC_interpolation](https://github.com/BodoBookhagen/Lidar_PC_interpolation)
-  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds) [github: LidarPC-KDTree](https://github.com/UP-RS-ESP/LidarPC-KDTree), [Etherpad KDTree](https://yourpart.eu/p/r.abf455105f3996ac0769c82ef95417d5)
+  - Efficient computation with point clouds using python, cython, and KDTrees (Example for generating DEMs from dense pointclouds) [github: LidarPC-KDTree](https://github.com/UP-RS-ESP/LidarPC-KDTree), [Etherpad KDTree](https://yourpart.eu/p/r.abf455105f3996ac0769c82ef95417d5), [Python code Volumetric_Density_PC_KDTree](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/Volumetric_Density_PC_KDTree.py), [Python code plot_density_from_hdf](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/plot_density_from_hdf.py)
   - Other topics depending on time and participant's interests
 
 4 - 5 pm *Evening student presentations*
 
 
 **Wednesday, October 2, 2019**
-- Desktop based (Python driven) computational workflows (III) (Aljoscha + Taylor + Bodo)
-  - Flow routing on point clouds using TINs [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Rheinwalt19_FFN_pointclouds.pdf)
-  - Channel Head identification using point clouds with various densities
+- Desktop based (Python driven) computational workflows (III) (Taylor + Aljoscha + Bodo)
   - Determining optimal DEM resolutions from point clouds [PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Optimal%20DEM%20Resolution%20Manual.pdf), [python code](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/Python-codes/figs_pc_workshop.py), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/smith19_optimal_grid_resolution.pdf)
 
 
 **Thursday, October 3, 2019**
 - Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/) (Fiona)
-  - Introduction [LSDTT PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/LSDTT_workshop.pdf), [Etherpad link](https://yourpart.eu/p/r.b240d942ccb3bf06612c6522c31282ae)
+  - Introduction to LSDTT [LSDTT PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/LSDTT_workshop.pdf), [Etherpad link](https://yourpart.eu/p/r.b240d942ccb3bf06612c6522c31282ae)
+  - Flow routing on point clouds using TINs [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Rheinwalt19_FFN_pointclouds.pdf)
   - River-profile clustering [github repository and Jupyter notebook and tutorial](https://github.com/UP-RS-ESP/river-clusters), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
   - Ridge-top curvature
 
 **Friday, October 4, 2019**
 - Full waveform lidar explanation and exploration with specific applications for geomorphology [PDF of introduction presentation](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/FWF_Lidar_Intro.pdf) (Bodo + Aljoscha)
-   - FWF examples are in [Golm-FWF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/Golm-FWF) and [fwf-lidar-displaz-examples](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/fwf-lidar-displaz-examples)
-   - better characterization of ground (and other) surfaces through Gaussian fitting [Etherpad Link](https://yourpart.eu/p/r.052bd8016d26784717d6d4ec879803c1)
+   - FWF data examples are in [Golm-FWF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/Golm-FWF) and [fwf-lidar-displaz-examples](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/fwf-lidar-displaz-examples)
+   - FWF processing workflow describing separate steps, including LAZ/WDP-to-ASCII conversion, interactive beam visualization of points and corresponding FWF data, spline smoothing and interpolation, peak finding and generation of denser point cloud, Gaussian fitting to signals and extraction of amplitude and width of fitted signal, and some comments on PulseWave files [PDF document with links to source codes and description](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/PC_workshop_fwf_processing_Golm.pdf), [Etherpad Link](https://yourpart.eu/p/r.052bd8016d26784717d6d4ec879803c1)
+
+![PointCloud and FWF workshop participants](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/FWF_workshop_group_photo.jpg "Group photo from Friday evening")
 
 
 ***Evening student*** **presentations**

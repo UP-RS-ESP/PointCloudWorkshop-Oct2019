@@ -5,7 +5,7 @@ date: 04-10-2019
 ...
 
 # Converting LAS 1.4 / WDP Files
-Starting with LAS version 1.3, full waveform data can be stored in LAS files in accompanying WDP (Waveform Data Packet, see [LINK](https://github.com/ASPRSorg/LAS/wiki/Waveform-Data-Packet-Descriptors-Explained)). However, reading and accessing these files can be tricky and depends on installed software. To avoid issues with version and incompatibilities, we will use the open-source LASlib package ([github](https://github.com/LAStools/LAStools/tree/master/LASlib) to read LAS/WDP and write to an ASCII file.
+Starting with LAS version 1.3, full waveform data can be stored in LAS files in accompanying WDP (Waveform Data Packet, see [LINK](https://github.com/ASPRSorg/LAS/wiki/Waveform-Data-Packet-Descriptors-Explained)). However, reading and accessing these files can be tricky and depends on installed software. To avoid issues with version and incompatibilities, we will use the open-source LASlib package ([github](https://github.com/LAStools/LAStools/tree/master/LASlib)) to read LAS/WDP and write to an ASCII file.
 
 A detailed description of the LAS formats [LAS 1.4](http://www.asprs.org/wp-content/uploads/2019/03/LAS_1_4_r14.pdf) and [LAS 1.3](https://www.asprs.org/wp-content/uploads/2010/12/LAS_1_4_r13.pdf).
 
