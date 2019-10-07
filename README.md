@@ -19,6 +19,9 @@ This course is intended for graduate students and researchers with interests in 
 
 [Workshop Flyer](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/flyer_2019_webpage.pdf)
 
+![PointCloudWorkshop-Oct2019](png/20191004_PC_group.jpg)
+Group photo: thanks to all participants!!!! (photo by V. Torres-Acosta)
+
 ## Organization Committee and Instructors
 [Bodo Bookhagen](https://bodobookhagen.github.io/), [Ramon Arrowsmith](https://www.public.asu.edu/~arrows/), [Chris Crosby](https://connect.unavco.org/display/per508132), [Taylor Smith](tasmith@uni-potsdam.de), [Fiona Clubb](https://fclubb.github.io/), [Aljoscha Rheinwalt](https://github.com/Rheinwalt)
 
