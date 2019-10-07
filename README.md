@@ -76,9 +76,9 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
 
 **Thursday, October 3, 2019**
 - Topographic analysis with [LSD TopoTools](https://lsdtopotools.github.io/) (Fiona)
-  - Introduction to LSDTT [LSDTT PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/LSDTT_workshop.pdf), [Etherpad link](https://yourpart.eu/p/r.b240d942ccb3bf06612c6522c31282ae)
+  - Introduction to LSDTT [LSDTopoTools presentation](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/LSDTopoTools_presentation.pdf), [LSDTT PDF manual](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/LSDTT_workshop.pdf), [Etherpad link](https://yourpart.eu/p/r.b240d942ccb3bf06612c6522c31282ae)
   - Flow routing on point clouds using TINs [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Rheinwalt19_FFN_pointclouds.pdf)
-  - River-profile clustering [github repository and Jupyter notebook and tutorial](https://github.com/UP-RS-ESP/river-clusters), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
+  - River-profile clustering [RiverProfile Clustering presentation](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/FClubb_Riverprofile_clustering_lr.pdf), [github repository and Jupyter notebook and tutorial](https://github.com/UP-RS-ESP/river-clusters), [publication](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/raw/master/PDF/Clubb19_clustering_river_profiles.pdf)
   - Ridge-top curvature
 
 **Friday, October 4, 2019**
