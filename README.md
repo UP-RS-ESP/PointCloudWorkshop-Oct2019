@@ -89,8 +89,6 @@ There is a list of hotels and accomodation in [Potsdam](https://github.com/UP-RS
    - FWF data examples are in [Golm-FWF](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/Golm-FWF) and [fwf-lidar-displaz-examples](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/examples/fwf-lidar-displaz-examples)
    - FWF processing workflow describing separate steps, including LAZ/WDP-to-ASCII conversion, interactive beam visualization of points and corresponding FWF data, spline smoothing and interpolation, peak finding and generation of denser point cloud, Gaussian fitting to signals and extraction of amplitude and width of fitted signal, and some comments on PulseWave files [PDF document with links to source codes and description](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/PDF/PC_workshop_fwf_processing_Golm.pdf), [Etherpad Link](https://yourpart.eu/p/r.052bd8016d26784717d6d4ec879803c1)
 
-![PointCloud and FWF workshop participants](https://github.com/UP-RS-ESP/PointCloudWorkshop-Oct2019/tree/master/png/FWF_workshop_group_photo.jpg "Group photo from Friday evening")
-
 
 ***Evening student*** **presentations**
 We will have short presentations by participants on Monday and Tuesday early evenings. You are STRONGLY encouraged to make one of these short (<5 minutes/<5 slides) presentations. We will have a computer and projector there and will collect the presentations in advance for quick transitions. Given the big group, we will be strict on timing, but we do look forward to hearing about your work, your ideas, or even questions. This will be very informal!
